@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/portfolio/static/js/main.48788b67.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.48788b67.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.16a39ed7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.16a39ed7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e8aee96b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.e8aee96b.js.map",
     "static/js/2.b7efd3b5.chunk.js": "/portfolio/static/js/2.b7efd3b5.chunk.js",
@@ -13,6 +13,11 @@
     "static/css/main.8c8b27cf.chunk.css.map": "/portfolio/static/css/main.8c8b27cf.chunk.css.map",
     "static/js/2.b7efd3b5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b7efd3b5.chunk.js.LICENSE.txt",
     "static/media/avataaars.9ced660e.svg": "/portfolio/static/media/avataaars.9ced660e.svg",
+    "static/media/project-portfolio-1.94d1e270.png": "/portfolio/static/media/project-portfolio-1.94d1e270.png",
+    "static/media/project-portfolio-2.3323f4de.png": "/portfolio/static/media/project-portfolio-2.3323f4de.png",
+    "static/media/project-portfolio-3.9a1345c7.png": "/portfolio/static/media/project-portfolio-3.9a1345c7.png",
+    "static/media/project-portfolio-4.886bd6dd.png": "/portfolio/static/media/project-portfolio-4.886bd6dd.png",
+    "static/media/project-portfolio-5.2365b45e.png": "/portfolio/static/media/project-portfolio-5.2365b45e.png",
     "static/media/project-raffles-app-1.8995d1d6.png": "/portfolio/static/media/project-raffles-app-1.8995d1d6.png",
     "static/media/project-raffles-app-2.6358f1c8.png": "/portfolio/static/media/project-raffles-app-2.6358f1c8.png",
     "static/media/project-raffles-app-3.4a1c48c3.png": "/portfolio/static/media/project-raffles-app-3.4a1c48c3.png",
@@ -28,6 +33,7 @@
     "static/media/project-to-do-app-1.70c13e44.png": "/portfolio/static/media/project-to-do-app-1.70c13e44.png",
     "static/media/project-to-do-app-2.e0e19b91.png": "/portfolio/static/media/project-to-do-app-2.e0e19b91.png",
     "static/media/project-to-do-app-3.f9f557d8.png": "/portfolio/static/media/project-to-do-app-3.f9f557d8.png",
+    "static/media/proyect-portfolio-main.79e47dc9.png": "/portfolio/static/media/proyect-portfolio-main.79e47dc9.png",
     "static/media/proyect-raffles-app-main.dbb41d37.png": "/portfolio/static/media/proyect-raffles-app-main.dbb41d37.png",
     "static/media/proyect-secret-friend-main.c882242c.png": "/portfolio/static/media/proyect-secret-friend-main.c882242c.png",
     "static/media/proyect-soccer-field-booking-main.5e2c1ddf.png": "/portfolio/static/media/proyect-soccer-field-booking-main.5e2c1ddf.png",
@@ -37,6 +43,6 @@
     "static/js/runtime-main.e8aee96b.js",
     "static/js/2.b7efd3b5.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.48788b67.chunk.js"
+    "static/js/main.16a39ed7.chunk.js"
   ]
 }
