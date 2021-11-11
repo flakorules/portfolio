@@ -8,7 +8,7 @@ export const Footer = () => {
           {/* <!-- Footer Location--> */}
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4">Location</h4>
-            <p className="lead mb-0">
+            <p className="lead-center mb-0">
               Rancagua, Chile
             </p>
           </div>

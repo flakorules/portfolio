@@ -1,15 +1,50 @@
+import mainImage1 from "../Images/portfolio/proyect-secret-friend-main.png";
+import mainImage2 from "../Images/portfolio/proyect-to-do-app-main.png";
+import mainImage3 from "../Images/portfolio/proyect-soccer-field-booking-main.png";
+import mainImage4 from "../Images/portfolio/proyect-raffles-app-main.png";
+import mainImage5 from "../Images/portfolio/proyect-portfolio-main.png";
+import mainImage6 from "../Images/portfolio/proyect-calendar-app-main.png";
+
+import prj1_1 from "../Images/portfolio/carousel/project-secret-friend-1.png";
+import prj1_2 from "../Images/portfolio/carousel/project-secret-friend-2.png";
+
+import prj2_1 from "../Images/portfolio/carousel/project-to-do-app-1.png";
+import prj2_2 from "../Images/portfolio/carousel/project-to-do-app-2.png";
+import prj2_3 from "../Images/portfolio/carousel/project-to-do-app-3.png";
+
+import prj3_1 from "../Images/portfolio/carousel/project-soccer-field-booking-1.png";
+import prj3_2 from "../Images/portfolio/carousel/project-soccer-field-booking-2.png";
+import prj3_3 from "../Images/portfolio/carousel/project-soccer-field-booking-3.png";
+import prj3_4 from "../Images/portfolio/carousel/project-soccer-field-booking-4.png";
+import prj3_5 from "../Images/portfolio/carousel/project-soccer-field-booking-5.png";
+
+import prj4_1 from "../Images/portfolio/carousel/project-raffles-app-1.png";
+import prj4_2 from "../Images/portfolio/carousel/project-raffles-app-2.png";
+import prj4_3 from "../Images/portfolio/carousel/project-raffles-app-3.png";
+import prj4_4 from "../Images/portfolio/carousel/project-raffles-app-4.png";
+import prj4_5 from "../Images/portfolio/carousel/project-raffles-app-5.png";
+
+import prj5_1 from "../Images/portfolio/carousel/project-portfolio-1.png";
+import prj5_2 from "../Images/portfolio/carousel/project-portfolio-2.png";
+import prj5_3 from "../Images/portfolio/carousel/project-portfolio-3.png";
+import prj5_4 from "../Images/portfolio/carousel/project-portfolio-4.png";
+import prj5_5 from "../Images/portfolio/carousel/project-portfolio-5.png";
+
+import prj6_1 from "../Images/portfolio/carousel/project-calendar-app-1.png";
+import prj6_2 from "../Images/portfolio/carousel/project-calendar-app-2.png";
+import prj6_3 from "../Images/portfolio/carousel/project-calendar-app-3.png";
+import prj6_4 from "../Images/portfolio/carousel/project-calendar-app-4.png";
+import prj6_5 from "../Images/portfolio/carousel/project-calendar-app-5.png";
+import prj6_6 from "../Images/portfolio/carousel/project-calendar-app-6.png";
+
 export const projects = [
   {
     projectId: 1,
     projectName: "Amigo Secreto App",
-    mainImage: "assets/img/portfolio/proyect-secret-friend-main.png",
+    mainImage: mainImage1,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.",
-    images: [
-      "assets/img/portfolio/proyect-secret-friend-main.png",
-      "assets/img/portfolio/carousel/project-secret-friend-1.png",
-      "assets/img/portfolio/carousel/project-secret-friend-2.png",
-    ],
+      "Idea que nace a partir del clásico juego del Amigo Secreto que en fiestas de fin de año es común dentro de grupos de amigos, compañeros de trabajo, de clase, etc. El algoritmo para asignar al amigo secreto está implementado en una API construida con Node JS y Express, mientras que el Front se construyó con React JS.",
+    images: [mainImage1, prj1_1, prj1_2],
     backendTools: ["Node JS", "Express JS"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/secret-friend-backend",
@@ -18,15 +53,10 @@ export const projects = [
   {
     projectName: "To do App",
     projectId: 2,
-    mainImage: "assets/img/portfolio/proyect-to-do-app-main.png",
+    mainImage: mainImage2,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.",
-    images: [
-      "assets/img/portfolio/proyect-to-do-app-main.png",
-      "assets/img/portfolio/carousel/project-to-do-app-1.png",
-      "assets/img/portfolio/carousel/project-to-do-app-2.png",
-      "assets/img/portfolio/carousel/project-to-do-app-3.png",
-    ],
+      "Esta es mi solución al ejercicio clásico de crear una aplicación de Todos. La solución consta de una base de datos creada a partir del enfoque Code First de Entity Framework, su respectiva API Restful, autenticación JWT (Json Web Token) y el Front End hecho con React JS",
+    images: [mainImage2, prj2_1, prj2_2, prj2_3],
     backendTools: [".NET Core", "JWT", "Entity Framework", "SQL Server"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/todos-api",
@@ -35,17 +65,10 @@ export const projects = [
   {
     projectName: "Soccer Field Booking",
     projectId: 3,
-    mainImage: "assets/img/portfolio/proyect-soccer-field-booking-main.png",
+    mainImage: mainImage3,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.",
-    images: [
-      "assets/img/portfolio/proyect-soccer-field-booking-main.png",
-      "assets/img/portfolio/carousel/project-soccer-field-booking-1.png",
-      "assets/img/portfolio/carousel/project-soccer-field-booking-2.png",
-      "assets/img/portfolio/carousel/project-soccer-field-booking-3.png",
-      "assets/img/portfolio/carousel/project-soccer-field-booking-4.png",
-      "assets/img/portfolio/carousel/project-soccer-field-booking-5.png",
-    ],
+      "Aplicación para reservar canchas de fútbol, la cual muestra al usuario los horarios en los que ha reservado y los horarios disponibles para reservar.",
+    images: [mainImage3, prj3_1, prj3_2, prj3_3, prj3_4, prj3_5],
     backendTools: [".NET Core", "JWT", "Entity Framework", "SQL Server"],
     frontendTools: ["React JS", "React Redux"],
     backendSource: "https://github.com/flakorules/soccer-field-booking-backend",
@@ -55,20 +78,37 @@ export const projects = [
   {
     projectName: "Raffles App",
     projectId: 4,
-    mainImage: "assets/img/portfolio/proyect-raffles-app-main.png",
+    mainImage: mainImage4,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.",
-      images: [
-        "assets/img/portfolio/proyect-raffles-app-main.png",
-        "assets/img/portfolio/carousel/project-raffles-app-1.png",
-        "assets/img/portfolio/carousel/project-raffles-app-2.png",
-        "assets/img/portfolio/carousel/project-raffles-app-3.png",
-        "assets/img/portfolio/carousel/project-raffles-app-4.png",
-        "assets/img/portfolio/carousel/project-raffles-app-5.png",
-      ],
+      "Me ha tocado organizar Rifas a Beneficencia, asi como tambien he participado comprando tickets para otras. Conociendo la mecánica organización de estas es que nace la idea de construir esta App que simula que el proceso desde su inicio hasta el sorteo.",
+    images: [mainImage4, prj4_1, prj4_2, prj4_3, prj4_4, prj4_5],
     backendTools: ["Node JS", "JWT", "Express JS", "Mongo DB"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/app-raffles-backend",
     frontendSource: "https://github.com/flakorules/app-raffles-frontend",
+  },
+  {
+    projectName: "Portafolio",
+    projectId: 5,
+    mainImage: mainImage5,
+    description: "Mi proyecto de portafolio.",
+    images: [mainImage5, prj5_1, prj5_2, prj5_3, prj5_4, prj5_5],
+    backendTools: [],
+    frontendTools: ["React JS", "Bootstrap"],
+    backendSource: null,
+    frontendSource: "https://github.com/flakorules/portfolio",
+  },
+
+  {
+    projectName: "Calendar MERN",
+    projectId: 6,
+    mainImage: mainImage6,
+    description:
+      "Proyecto que es parte de los ejercicios del curso React: De cero a experto ( Hooks y MERN ) del profesor Fernando Herrera.",
+    images: [mainImage6, prj6_1, prj6_2, prj6_3, prj6_4, prj6_5, prj6_6],
+    backendTools: ["Node JS", "JWT", "Express JS", "Mongo DB"],
+    frontendTools: ["React JS", "React Redux", "Bootstrap"],
+    backendSource: "https://github.com/flakorules/calendar-mern-backend",
+    frontendSource: "https://github.com/flakorules/calendar-mern-frontend",
   },
 ];

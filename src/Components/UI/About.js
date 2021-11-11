@@ -1,36 +1,34 @@
 import React from "react";
+import { SectionHeader } from "./SectionHeader";
 
 export const About = () => {
   return (
-    <section className="page-section bg-primary text-white mb-0" id="about">
+    <section className="page-section portfolio" id="about">
       <div className="container">
         {/* <!-- About Section Heading--> */}
-        <h2 className="page-section-heading text-center text-uppercase text-white">
-          About
-        </h2>
-        {/* <!-- Icon Divider--> */}
-        <div className="divider-custom divider-light">
-          <div className="divider-custom-line"></div>
-          <div className="divider-custom-icon">
-            <i className="fas fa-code fa-2x"></i>
-          </div>
-          <div className="divider-custom-line"></div>
-        </div>
+        <SectionHeader title="About" />
         {/* <!-- About Section Content--> */}
         <div className="row">
           <div className="col-lg-4 ms-auto">
             <p className="lead">
-              Freelancer is a free bootstrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML,
-              CSS, and JavaScript as well as optional SASS stylesheets for easy
-              customization.
+              Llevo más de diez años como desarrollador de software construyendo
+              y manteniendo aplicaciones web para sectores de auditoría,
+              educación y banca. Durante gran parte de mi experiencia laboral he
+              utilizado herramientas del stack Microsoft como ASP.NET, C#, SQL
+              Server y SQL Server Integration Services (SSIS). La pandemia y el
+              trabajo desde casa me ha beneficiado con tiempo libre, el cual he
+              utilizado en adquirir nuevos skills a través de cursos online.
             </p>
           </div>
           <div className="col-lg-4 me-auto">
             <p className="lead">
-              You can create your own custom avatar for the masthead, change the
-              icon in the dividers, and add your email address to the contact
-              form to make it fully functional!
+              Dado ésto, me motivé a crear éste portafolio en el cual expongo
+              algunos proyectos que he realizado utilizando las herramientas que
+              he aprendido como: .NET Core, Node JS, y React JS. Te invito a
+              verlos, cada uno tiene los links a su codigo fuente, y si quieres
+              verlos funcionar o necesitas ayuda para levantarlos en tu ambiente
+              local, no dudes en contactarme a través del formulario de contacto
+              o mi Linked In.
             </p>
           </div>
         </div>

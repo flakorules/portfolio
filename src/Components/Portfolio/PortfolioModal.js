@@ -46,23 +46,27 @@ export const PortfolioModal = ({ project }) => {
                 </div>
               </div>
 
-              <div className="row justify-content-center">
-                <div className="col-lg-8 mb-4">
-                  <label className="font-italic"> Backend: </label>
-                  {project.backendTools.map((tool, index) => (
-                    <ProjectToolBadge key={index} tool={tool} />
-                  ))}
+              {project.backendTools.length > 0 && (
+                <div className="row justify-content-center">
+                  <div className="col-lg-8 mb-4">
+                    <label className="font-italic"> Backend: </label>
+                    {project.backendTools.map((tool, index) => (
+                      <ProjectToolBadge key={index} tool={tool} />
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
-              <div className="row justify-content-center">
-                <div className="col-lg-8 mb-4">
-                  Frontend:{" "}
-                  {project.frontendTools.map((tool, index) => (
-                    <ProjectToolBadge key={index} tool={tool} />
-                  ))}
+              {project.frontendTools.length > 0 && (
+                <div className="row justify-content-center">
+                  <div className="col-lg-8 mb-4">
+                    Frontend:{" "}
+                    {project.frontendTools.map((tool, index) => (
+                      <ProjectToolBadge key={index} tool={tool} />
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               <div className="row justify-content-center">
                 <div className="col-lg-8 mt-4">
@@ -82,24 +86,28 @@ export const PortfolioModal = ({ project }) => {
                     role="group"
                     aria-label="Basic mixed styles example"
                   >
-                    <a
-                      type="button"
-                      className="btn btn-primary"
-                      href={project.backendSource}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Backend
-                    </a>
-                    <a
-                      type="button"
-                      className="btn btn-primary"
-                      href={project.frontendSource}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Frontend
-                    </a>
+                    {!!project.backendSource && (
+                      <a
+                        type="button"
+                        className="btn btn-primary"
+                        href={project.backendSource}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Backend
+                      </a>
+                    )}
+                    {!!project.frontendSource && (
+                      <a
+                        type="button"
+                        className="btn btn-primary"
+                        href={project.frontendSource}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Frontend
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

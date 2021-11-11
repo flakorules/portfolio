@@ -1,4 +1,5 @@
 import React from "react";
+import avataaars from '../../Images/avataaars.svg';
 
 export const Masterhead = () => {
   return (
@@ -7,7 +8,7 @@ export const Masterhead = () => {
         {/* <!-- Masthead Avatar Image--> */}
         <img
           className="masthead-avatar mb-5"
-          src="assets/img/avataaars.svg"
+          src={avataaars}
           alt="..."
         />
         {/* <!-- Masthead Heading--> */}
@@ -24,7 +25,7 @@ export const Masterhead = () => {
         </div>
         {/* <!-- Masthead Subheading--> */}
         <p className="masthead-subheading font-weight-light mb-0">
-          Desarrollador de Software
+          Soy Desarrollador de Software y te invito a ver mi portafolio.
         </p>
       </div>
     </header>

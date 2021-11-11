@@ -7,7 +7,7 @@ import { Footer } from "./Components/UI/Footer";
 import { Copyright } from "./Components/UI/Copyright";
 import { Portfolio } from "./Components/UI/Portfolio";
 import { Skills } from "./Components/UI/Skills";
-import { ContactForm } from "./Components/Contact/ContactForm";
+import { Resume } from "./Components/UI/Resume";
 
 function App() {
   return (
@@ -16,17 +16,18 @@ function App() {
       <Navbar />
       {/* <!-- Masthead--> */}
       <Masterhead />
-
+      {/* <!-- About Section--> */}
+      <About />
+      {/* <!-- About Section--> */}
       {/* <!-- Skills Section--> */}
       <Skills />
 
       {/* <!-- Portfolio Section--> */}
       <Portfolio />
 
-      {/* <!-- About Section--> */}
-      <About />
+      <Resume />
       {/* <!-- Contact Section--> */}
-      
+
       <Contact />
       {/* <!-- Footer--> */}
       <Footer />

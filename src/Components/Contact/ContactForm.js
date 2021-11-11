@@ -1,13 +1,22 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 export const ContactForm = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+
   return (
-    <>
+    <div className="col-lg-8 col-xl-7">
       <form
-        enctype="multipart/form-data"
+        encType="multipart/form-data"
         method="post"
         action="https://www.freedback.com/mail.php"
-        accept-charset="UTF-8"
+        acceptCharset="UTF-8"
       >
         <div>
           <input
@@ -24,44 +33,54 @@ export const ContactForm = () => {
             value="name,email,field-263e8d000b35812"
           />
         </div>
-        <table cellspacing="5" cellpadding="5" border="0">
-          <tr>
-            <td valign="top">
-              <strong>Name:</strong>
-            </td>
-            <td valign="top">
-              <input type="text" name="name" id="name" size="40" value="" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top">
-              <strong>Email Address:</strong>
-            </td>
-            <td valign="top">
-              <input type="text" 
-              name="email" 
-              id="email" size="40" value="" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top">
-              <strong>Comentario</strong>
-            </td>
-            <td valign="top">
-              <textarea
-                name="field-263e8d000b35812"
-                id="field-263e8d000b35812"
-                rows="6"
-                cols="40"
-              ></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" align="center">
-              <input type="submit" value=" Submit Form " />
-            </td>
-          </tr>
-        </table>
+
+        <div className="form-floating mb-3">
+          <input
+          maxLength="100"
+            className="form-control"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Enter your name..."
+          />
+          <label htmlFor="name">Full name</label>
+        </div>
+        <div className="form-floating mb-3">
+          <input
+          maxLength="100"
+            className="form-control"
+            name="email"
+            id="email"
+            type="email"
+            placeholder="name@example.com"
+          />
+          <label htmlFor="email">Email address</label>
+        </div>
+
+        {/* <!-- Message input--> */}
+        <div className="form-floating mb-3">
+          <textarea
+          maxLength="1000"
+            className="form-control"
+            name="field-263e8d000b35812"
+            id="field-263e8d000b35812"
+            rows="6"
+            cols="40"
+            type="text"
+            placeholder="Enter your message here..."
+          ></textarea>
+          <label htmlFor="message">Message</label>
+        </div>
+
+        {/* <!-- Submit Button--> */}
+        <button
+          className="btn btn-primary btn-xl"
+          id="submitButton"
+          type="submit"
+          value=" Submit Form "
+        >
+          Send
+        </button>
       </form>
       <br />
       <center>
@@ -72,6 +91,6 @@ export const ContactForm = () => {
           </b>
         </font>
       </center>
-    </>
+    </div>
   );
 };
