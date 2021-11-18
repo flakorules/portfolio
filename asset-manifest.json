@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/portfolio/static/js/main.62eed56d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62eed56d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c10fe131.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c10fe131.js.map",
-    "static/js/2.29c6f41c.chunk.js": "/portfolio/static/js/2.29c6f41c.chunk.js",
-    "static/js/2.29c6f41c.chunk.js.map": "/portfolio/static/js/2.29c6f41c.chunk.js.map",
-    "static/js/3.ed2fb46e.chunk.js": "/portfolio/static/js/3.ed2fb46e.chunk.js",
-    "static/js/3.ed2fb46e.chunk.js.map": "/portfolio/static/js/3.ed2fb46e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.60b7b0fa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.60b7b0fa.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e8aee96b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e8aee96b.js.map",
+    "static/js/2.b7efd3b5.chunk.js": "/portfolio/static/js/2.b7efd3b5.chunk.js",
+    "static/js/2.b7efd3b5.chunk.js.map": "/portfolio/static/js/2.b7efd3b5.chunk.js.map",
+    "static/js/3.c0dea91c.chunk.js": "/portfolio/static/js/3.c0dea91c.chunk.js",
+    "static/js/3.c0dea91c.chunk.js.map": "/portfolio/static/js/3.c0dea91c.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/portfolio/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.29c6f41c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.29c6f41c.chunk.js.LICENSE.txt",
+    "static/js/2.b7efd3b5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b7efd3b5.chunk.js.LICENSE.txt",
     "static/media/avataaars.9ced660e.svg": "/portfolio/static/media/avataaars.9ced660e.svg",
     "static/media/project-calendar-app-1.5a9955d6.png": "/portfolio/static/media/project-calendar-app-1.5a9955d6.png",
     "static/media/project-calendar-app-2.927c4c6a.png": "/portfolio/static/media/project-calendar-app-2.927c4c6a.png",
@@ -47,9 +47,9 @@
     "static/media/proyect-to-do-app-main.1282f7b0.png": "/portfolio/static/media/proyect-to-do-app-main.1282f7b0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c10fe131.js",
-    "static/js/2.29c6f41c.chunk.js",
+    "static/js/runtime-main.e8aee96b.js",
+    "static/js/2.b7efd3b5.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.62eed56d.chunk.js"
+    "static/js/main.60b7b0fa.chunk.js"
   ]
 }
