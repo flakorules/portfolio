@@ -28,7 +28,7 @@ export const PortfolioModal = ({ project }) => {
                   <PortfolioCarousel project={project} />
 
                   {/* <!-- Portfolio Modal - Text--> */}
-                  <p className="mb-4">{project.description}</p>
+                  <p className="mb-4 lead">{project.description}</p>
                 </div>
               </div>
               <div className="row justify-content-center">
@@ -111,6 +111,41 @@ export const PortfolioModal = ({ project }) => {
                   </div>
                 </div>
               </div>
+
+              {!!project.url && (
+                <div className="row justify-content-center">
+                  <div className="col-lg-8 mt-4">
+                    <h2 className="portfolio-modal-title text-secondary mb-0">
+                      Link a la aplicación
+                    </h2>
+                    <div className="divider-custom">
+                      <div className="divider-custom-line"></div>
+                      <div className="divider-custom-icon">
+                        <i className="fas fa-code"></i>
+                      </div>
+                      <div className="divider-custom-line"></div>
+                    </div>
+
+                    <div
+                      className="btn-group"
+                      role="group"
+                      aria-label="Basic mixed styles example"
+                    >
+                      {!!project.backendSource && (
+                        <a
+                          type="button"
+                          className="btn btn-primary"
+                          href={project.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Click aquí
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

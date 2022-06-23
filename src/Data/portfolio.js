@@ -43,24 +43,26 @@ export const projects = [
     projectName: "Amigo Secreto App",
     mainImage: mainImage1,
     description:
-      "Idea que nace a partir del clásico juego del Amigo Secreto que en fiestas de fin de año es común dentro de grupos de amigos, compañeros de trabajo, de clase, etc. El algoritmo para asignar al amigo secreto está implementado en una API construida con Node JS y Express, mientras que el Front se construyó con React JS.",
+      "Idea que nace a partir del clásico juego del Amigo Secreto que en fiestas de fin de año es común dentro de grupos de amigos, compañeros de trabajo, de clase, etc.",
     images: [mainImage1, prj1_1, prj1_2],
     backendTools: ["Node JS", "Express JS"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/secret-friend-backend",
     frontendSource: "https://github.com/flakorules/secret-friend-frontend",
+    url: "https://cfcs-secret-friend.herokuapp.com/",
   },
   {
     projectName: "To do App",
     projectId: 2,
     mainImage: mainImage2,
     description:
-      "Esta es mi solución al ejercicio clásico de crear una aplicación de Todos. La solución consta de una base de datos creada a partir del enfoque Code First de Entity Framework, su respectiva API Restful, autenticación JWT (Json Web Token) y el Front End hecho con React JS",
+      "Esta es mi solución al ejercicio clásico de crear una aplicación de Todos. Si deseas ver funcionar la aplicación, solicitame el acceso a través del formulario de contacto o mi LinkedIn.",
     images: [mainImage2, prj2_1, prj2_2, prj2_3],
     backendTools: [".NET Core", "JWT", "Entity Framework", "SQL Server"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/todos-api",
     frontendSource: "https://github.com/flakorules/todos-frontend",
+    url: "http://flakorules-001-site1.itempurl.com/todos-frontend/",
   },
   {
     projectName: "Soccer Field Booking",
@@ -74,6 +76,7 @@ export const projects = [
     backendSource: "https://github.com/flakorules/soccer-field-booking-backend",
     frontendSource:
       "https://github.com/flakorules/soccer-field-booking-frontend",
+    url: null,
   },
   {
     projectName: "Raffles App",
@@ -86,17 +89,19 @@ export const projects = [
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/app-raffles-backend",
     frontendSource: "https://github.com/flakorules/app-raffles-frontend",
+    url: null,
   },
   {
     projectName: "Portafolio",
     projectId: 5,
     mainImage: mainImage5,
-    description: "Mi proyecto de portafolio.",
+    description: "Mi proyecto de portafolio, el cual estás viendo en este preciso instante.",
     images: [mainImage5, prj5_1, prj5_2, prj5_3, prj5_4, prj5_5],
     backendTools: [],
     frontendTools: ["React JS", "Bootstrap"],
     backendSource: null,
     frontendSource: "https://github.com/flakorules/portfolio",
+    url: null,
   },
 
   {
@@ -104,11 +109,12 @@ export const projects = [
     projectId: 6,
     mainImage: mainImage6,
     description:
-      "Proyecto que es parte de los ejercicios del curso React: De cero a experto ( Hooks y MERN ) del profesor Fernando Herrera.",
+      "Proyecto que es parte de los ejercicios del curso React: De cero a experto ( Hooks y MERN ) del profesor Fernando Herrera. Comunicate conmigo a través del formulario de contacto o en mi LinkedIn si deseas obtener acceso a la aplicación y ver su funcionamiento.",
     images: [mainImage6, prj6_1, prj6_2, prj6_3, prj6_4, prj6_5, prj6_6],
     backendTools: ["Node JS", "JWT", "Express JS", "Mongo DB"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/calendar-mern-backend",
     frontendSource: "https://github.com/flakorules/calendar-mern-frontend",
+    url: "https://mern-calendar-cfcs.herokuapp.com/",
   },
 ];

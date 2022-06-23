@@ -1,15 +1,6 @@
 import React from "react";
-import { useForm } from "react-hook-form";
 
 export const ContactForm = () => {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
-
   return (
     <div className="col-lg-8 col-xl-7">
       <form
@@ -36,7 +27,7 @@ export const ContactForm = () => {
 
         <div className="form-floating mb-3">
           <input
-          maxLength="100"
+            maxLength="100"
             className="form-control"
             name="name"
             id="name"
@@ -47,7 +38,7 @@ export const ContactForm = () => {
         </div>
         <div className="form-floating mb-3">
           <input
-          maxLength="100"
+            maxLength="100"
             className="form-control"
             name="email"
             id="email"
@@ -60,7 +51,7 @@ export const ContactForm = () => {
         {/* <!-- Message input--> */}
         <div className="form-floating mb-3">
           <textarea
-          maxLength="1000"
+            maxLength="1000"
             className="form-control"
             name="field-263e8d000b35812"
             id="field-263e8d000b35812"
@@ -73,14 +64,16 @@ export const ContactForm = () => {
         </div>
 
         {/* <!-- Submit Button--> */}
-        <button
-          className="btn btn-primary btn-xl"
-          id="submitButton"
-          type="submit"
-          value=" Submit Form "
-        >
-          Send
-        </button>
+        <div className="form-floating mb-3 d-flex justify-content-center">
+          <button
+            className="btn btn-primary btn-xl"
+            id="submitButton"
+            type="submit"
+            value=" Submit Form "
+          >
+            Send
+          </button>
+        </div>
       </form>
       <br />
       <center>
