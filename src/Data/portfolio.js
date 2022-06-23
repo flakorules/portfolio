@@ -69,11 +69,11 @@ export const projects = [
     description:
       "Esta es mi solución al ejercicio clásico de crear una aplicación de Todos. Si deseas ver funcionar la aplicación, solicitame el acceso a través del formulario de contacto o mi LinkedIn.",
     images: [mainImage2, prj2_1, prj2_2, prj2_3],
-    backendTools: [".NET Core", "JWT", "Entity Framework", "SQL Server"],
+    backendTools: [".NET Core", "JWT", "Entity Framework", "PostgreSQL"],
     frontendTools: ["React JS", "React Redux", "Bootstrap"],
     backendSource: "https://github.com/flakorules/todos-api",
     frontendSource: "https://github.com/flakorules/todos-frontend",
-    url: "http://flakorules-001-site1.itempurl.com/todos-frontend/",
+    url: "https://cfcs-todos-app.netlify.app/",
   },
   {
     projectName: "Soccer Field Booking",
