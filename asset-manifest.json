@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/portfolio/static/js/main.60b7b0fa.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.60b7b0fa.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c54068ed.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c54068ed.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e8aee96b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.e8aee96b.js.map",
     "static/js/2.b7efd3b5.chunk.js": "/portfolio/static/js/2.b7efd3b5.chunk.js",
@@ -19,6 +19,13 @@
     "static/media/project-calendar-app-4.cdf8d1ad.png": "/portfolio/static/media/project-calendar-app-4.cdf8d1ad.png",
     "static/media/project-calendar-app-5.139fff72.png": "/portfolio/static/media/project-calendar-app-5.139fff72.png",
     "static/media/project-calendar-app-6.1f80c723.png": "/portfolio/static/media/project-calendar-app-6.1f80c723.png",
+    "static/media/project-mantenedor-personas-1.d30eacd5.png": "/portfolio/static/media/project-mantenedor-personas-1.d30eacd5.png",
+    "static/media/project-mantenedor-personas-2.0e8b18b8.png": "/portfolio/static/media/project-mantenedor-personas-2.0e8b18b8.png",
+    "static/media/project-mantenedor-personas-3.a7c64c4e.png": "/portfolio/static/media/project-mantenedor-personas-3.a7c64c4e.png",
+    "static/media/project-mantenedor-personas-4.591951c1.png": "/portfolio/static/media/project-mantenedor-personas-4.591951c1.png",
+    "static/media/project-mantenedor-personas-5.71b1806f.png": "/portfolio/static/media/project-mantenedor-personas-5.71b1806f.png",
+    "static/media/project-mantenedor-personas-6.f5a01f58.png": "/portfolio/static/media/project-mantenedor-personas-6.f5a01f58.png",
+    "static/media/project-mantenedor-personas-7.c10de1a0.png": "/portfolio/static/media/project-mantenedor-personas-7.c10de1a0.png",
     "static/media/project-portfolio-1.94d1e270.png": "/portfolio/static/media/project-portfolio-1.94d1e270.png",
     "static/media/project-portfolio-2.3323f4de.png": "/portfolio/static/media/project-portfolio-2.3323f4de.png",
     "static/media/project-portfolio-3.9a1345c7.png": "/portfolio/static/media/project-portfolio-3.9a1345c7.png",
@@ -40,6 +47,7 @@
     "static/media/project-to-do-app-2.e0e19b91.png": "/portfolio/static/media/project-to-do-app-2.e0e19b91.png",
     "static/media/project-to-do-app-3.f9f557d8.png": "/portfolio/static/media/project-to-do-app-3.f9f557d8.png",
     "static/media/proyect-calendar-app-main.2ebfa126.png": "/portfolio/static/media/proyect-calendar-app-main.2ebfa126.png",
+    "static/media/proyect-mantenedor-personas-main.edc04389.png": "/portfolio/static/media/proyect-mantenedor-personas-main.edc04389.png",
     "static/media/proyect-portfolio-main.79e47dc9.png": "/portfolio/static/media/proyect-portfolio-main.79e47dc9.png",
     "static/media/proyect-raffles-app-main.dbb41d37.png": "/portfolio/static/media/proyect-raffles-app-main.dbb41d37.png",
     "static/media/proyect-secret-friend-main.c882242c.png": "/portfolio/static/media/proyect-secret-friend-main.c882242c.png",
@@ -50,6 +58,6 @@
     "static/js/runtime-main.e8aee96b.js",
     "static/js/2.b7efd3b5.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.60b7b0fa.chunk.js"
+    "static/js/main.c54068ed.chunk.js"
   ]
 }
