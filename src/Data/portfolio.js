@@ -4,6 +4,7 @@ import mainImage3 from "../Images/portfolio/proyect-soccer-field-booking-main.pn
 import mainImage4 from "../Images/portfolio/proyect-raffles-app-main.png";
 import mainImage5 from "../Images/portfolio/proyect-portfolio-main.png";
 import mainImage6 from "../Images/portfolio/proyect-calendar-app-main.png";
+import mainImage7 from "../Images/portfolio/proyect-mantenedor-personas-main.png";
 
 import prj1_1 from "../Images/portfolio/carousel/project-secret-friend-1.png";
 import prj1_2 from "../Images/portfolio/carousel/project-secret-friend-2.png";
@@ -36,6 +37,16 @@ import prj6_3 from "../Images/portfolio/carousel/project-calendar-app-3.png";
 import prj6_4 from "../Images/portfolio/carousel/project-calendar-app-4.png";
 import prj6_5 from "../Images/portfolio/carousel/project-calendar-app-5.png";
 import prj6_6 from "../Images/portfolio/carousel/project-calendar-app-6.png";
+
+import prj7_1 from "../Images/portfolio/carousel/project-mantenedor-personas-1.png";
+import prj7_2 from "../Images/portfolio/carousel/project-mantenedor-personas-2.png";
+import prj7_3 from "../Images/portfolio/carousel/project-mantenedor-personas-3.png";
+import prj7_4 from "../Images/portfolio/carousel/project-mantenedor-personas-4.png";
+import prj7_5 from "../Images/portfolio/carousel/project-mantenedor-personas-5.png";
+import prj7_6 from "../Images/portfolio/carousel/project-mantenedor-personas-6.png";
+import prj7_7 from "../Images/portfolio/carousel/project-mantenedor-personas-7.png";
+
+
 
 export const projects = [
   {
@@ -117,4 +128,20 @@ export const projects = [
     frontendSource: "https://github.com/flakorules/calendar-mern-frontend",
     url: "https://mern-calendar-cfcs.herokuapp.com/",
   },
+
+
+  {
+    projectName: "Mantenedor Personas App",
+    projectId: 7,
+    mainImage: mainImage7,
+    description:
+      "Aplicación CRUD para manejar los datos de personas.",
+    images: [mainImage7, prj7_1, prj7_2, prj7_3, prj7_4, prj7_5, prj7_6, prj7_7],
+    backendTools: [".Net Core", "Entity Framework", "PostgreSQL"],
+    frontendTools: ["React JS", "Bootstrap"],
+    backendSource: "https://github.com/flakorules/cfcs-mantenedor-personas-api",
+    frontendSource: "https://github.com/flakorules/cfcs-mantenedor-personas-app",
+    url: "https://cfcs-mantenedor-personas.netlify.app/",
+  },
+
 ];

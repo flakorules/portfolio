@@ -12,7 +12,7 @@ export const Skills = () => {
         <div className="row justify-content-center">
           {skills.map((skill) => (
             <div key={skill.skillId} className="col-lg-1 col-md-2 col-sm-3 col-2 m-5">
-              <img  src={skill.skillIcon} alt="..." />
+              <img  src={skill.skillIcon} alt={skill.skillName} title={skill.skillName}/>
             </div>
           ))}
         </div>

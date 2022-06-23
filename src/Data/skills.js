@@ -42,6 +42,12 @@ export const skills = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
   },
   {
+    skillId: 12,
+    skillName: "Angular",
+    skillIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+  },
+  {
     skillId: 8,
     skillName: "MongoDB",
     skillIcon:
@@ -52,5 +58,17 @@ export const skills = [
     skillName: "Github",
     skillIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
+  },
+  {
+    skillId: 10,
+    skillName: "Docker",
+    skillIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg",
+  },
+  {
+    skillId: 11,
+    skillName: "Kubernetes",
+    skillIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg",
   },
 ];
